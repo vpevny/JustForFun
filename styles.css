@@ -1,0 +1,148 @@
+h1{
+    color: black;
+    text-align: center;
+}
+.canvas{
+    background-color: orange;
+    height: 100vh;
+    z-index: 0;
+}
+.player{
+    position: absolute;
+    top: 160px;
+    left: 23%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: turquoise;
+}
+
+.Andy{
+    position: absolute;
+    top: 160px;
+    left: 72%;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: turquoise;
+}
+
+players h2{
+    font-size: 19px;
+}
+
+.players h3{
+    font-size: 25px;
+}
+
+.choice1{
+    width: 10%;
+    height: 150px;
+    position:absolute;
+    background-color: black;
+    top: 280px;
+    left: 35%;
+}
+
+.choice2{
+    width: 10%;
+    height: 150px;
+    position:absolute;
+    background-color: black;
+    top: 280px;
+    left: 53%;
+}
+.btn1{
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    width: 16%;
+    height: 60px;
+    text-align: center;
+    left: 41%;
+    top: 450px;
+    background-color: green;
+    
+}
+
+.btn1:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.btn2{
+   font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    width: 12%;
+    height: 37px;
+    text-align: center;
+    left: 43%;
+    top: 559px;
+    background-color: green;
+}
+
+.btn2:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.resbtn{
+    font-size: 40px;
+    background: orange;
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    top: 150px;
+    left: 39%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.options{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    width: 10%;
+    font-size: 28px;
+    left: 23%;
+    text-align: center;
+}
+
+.options:hover{
+    background: red;
+    cursor: pointer;
+}
+    
+
+.rock{
+    top: 300px;
+}
+.scissors{
+    top: 350px;
+}
+.papper{
+    top: 400px;
+}
+.lizard{
+    top: 450px;
+}
+.spock{
+    top: 500px;
+}
+.pics{
+    width: 10%;
+    height: 150px;
+    position: absolute;
+}
+.leftpics{
+    top: 280px;    
+    left: 35%;
+}
+.rightpics{
+    top: 280px;
+    left: 53%;
+}
